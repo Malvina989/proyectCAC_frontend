@@ -1,0 +1,78 @@
+.logoForm {
+    height: 80px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.formulario {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 12px -10px 28px 0px rgba(19,52,129,0.76);
+    padding: 20px;
+    border: 2px solid #B51A2B;
+
+}
+
+.container {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+fieldset {
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: #133481;
+    padding: 15px;
+}
+
+form p {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+.obligatorio {
+    color: #B51A2B;
+}
+
+.input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #133481;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none;
+}
+.boton {
+    display: flex;
+    justify-content: center;
+}
+.enviar-btn {
+    display: flex;
+    justify-content: center;
+    background-color: #161E2F;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.enviar-btn:hover {
+    background-color: #007BFF;
+}
+
